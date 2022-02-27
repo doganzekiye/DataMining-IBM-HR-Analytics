@@ -20,7 +20,7 @@ warnings.filterwarnings('ignore')
 # before operations
 
 dataset = pd.read_csv(
-    "C:/Users/asude/Downloads/archive(1)/hrTrain.csv", na_values=[np.nan])
+    "xxx/hrTrain.csv", na_values=[np.nan])
 
 dataset = dataset.drop(
     ['Over18', 'EmployeeCount', 'StandardHours', 'EmployeeNumber'], axis=1)
